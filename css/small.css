@@ -8,9 +8,13 @@
 header {
     border-radius: 15px;
     margin: auto;
+    display: flex;
+    box-shadow: 5px 10px 8px;
+    background-color: gray;
 }
 
 h1 {
+    font-size: 1.5em;
     padding: 10px;
     margin: auto;
     align-self: center;
@@ -26,12 +30,6 @@ body {
 h2 {
     font-family: "Times New Roman", Times, serif;
     text-shadow: 1px 1px;
-}
-
-header {
-    display: flex;
-    box-shadow: 5px 10px 8px;
-    background-color: gray;
 }
 
 hr {
