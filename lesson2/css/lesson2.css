@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+* 
+{
+    margin: 0 auto;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+body
+{
+    width: 100%;
+}
+
+main
+{
+    width: 95%; 
+}
+
+header
+{
+    margin: 10px;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.headerName
+{
+    font-size: 30px;
+}
+
+.section
+{
+    border: 1px solid black; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h2, 
+.name,
+.link,
+.reason
+{
+    padding: 10px; 
+}
+
+h2
+{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+a:hover
+{
+    color: red;
+}
+
+img
+{
+    border: 1px solid black;
+    display: block;
+    width: 96%;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+footer
+{
+    margin: 10px;
+    padding: 0.1em;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+@media screen and (min-width: 400px)
+{
+    .main
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 800px)
+{
+    .main
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
