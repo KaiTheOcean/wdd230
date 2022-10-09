@@ -1,31 +1,57 @@
-var date = new Date();
-var realTime = date.getTime()
-var year = date.getFullYear();
-document.getElementById("year").textContent = year;
-document.getElementById("lastModified").textContent = document.lastModified;
+let datePlacement = document.querySelector(".currentDate");
 
+let months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
-let button = document.querySelector("#button")
-let navigation = document.querySelector("#navigation")
-navigation.style.display = "none"
-function toggle() {
-    if (navigation.style.display == "none") {
-        navigation.style.display = "block"
-    }
-    else {
-        navigation.style.display = "none"
-    }
+let today = new Date();
+let month = months[today.getMonth()];
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+let dayText = days[today.getDay()];
+let dayNum = today.getDate();
+
+let year = today.getFullYear();
+
+console.log(today);
+console.log(days);
+console.log(dayNum);
+console.log(dayText);
+
+datePlacement.innerHTML = `${dayText}, ${dayNum} ${month}, ${year}`;
+
+let button = document.querySelector(".btn");
+let links = document.querySelector(".links");
+
+function show() {
+  links.classList.toggle("disappear");
 }
 
-button.addEventListener("click", toggle)
+button.addEventListener("click", show);
 
-// select the elements to manipulate (output to)
-const datefield = document.querySelector(".date");
+let date = new Date();
+let yearFoot = date.getFullYear();
 
-// derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
+document.querySelector(".yearFoot").textContent = yearFoot;
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+let currentDate = document.lastModified;
+
+document.querySelector(".lastModified").textContent = currentDate;
