@@ -104,7 +104,13 @@ footer {
 @media only screen and (min-width:700px) {
   nav{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  }
+
+  .navigation li {
+    margin-right: 15%;
+
+  }
+  .hamburgerBtn{
+    display: none;
   }
 }
