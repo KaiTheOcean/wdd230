@@ -1,6 +1,7 @@
 *{
     margin: 5px;
     padding: 0;
+    box-sizing:border-box;
 }
 
 header {
@@ -18,8 +19,38 @@ a {
     color: black;
 }
 
+#hero h2 {
+  text-align: left;
+  background-color: lightgray;
+  width: fit-content;
+  padding: 10px;
+}
+
+#join button {
+  padding: 10px;
+  width: 90%;
+}
+
+#join p {
+  margin-top: 20px;
+}
+
+#hero button {
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+}
+
 a:hover, i:hover {
     color: tomato;
+    background-color: black;
+}
+
+#event span {
+  color: red;
 }
 
 h1,
@@ -33,8 +64,47 @@ h2 {
   height: auto;
 }
 
+.spotlightTitle, #join h2, #event h2, #weather h2, #news h2{
+  color: darkgreen;
+}
+
 section {
   margin: 10px;
+}
+
+#spot1, #spot2, #spot3, #event, #join, #weather, #news{
+  background-color: lightgray;
+}
+
+#hero {
+  background-image: url("https://img.jakpost.net/c/2017/12/11/2017_12_11_37092_1512964748._large.jpg");
+  background-size:cover;
+  height: 200px;
+  position: relative;
+}
+
+#diamondLogo {
+  width: 20px;
+  height: auto;
+}
+
+.spotlight {
+  background-color: gray;
+}
+
+#celsiusPic {
+  width: 40px;
+  height: auto;
+}
+
+#weatherPic {
+  width: 60px;
+  height: auto;
+}
+
+.highlightPic {
+  width: 80px;
+  height: auto;
 }
 
 .btn {
@@ -87,6 +157,10 @@ footer {
   padding: 15px;
 }
 
+#celsiusNumber {
+  font-size: 40px;
+}
+
 #footImg {
   width: 190px;
 }
@@ -100,10 +174,21 @@ main {
   grid-column: 2;
 }
 
+#location, #contact{
+  display: flex;
+  align-self:flex-end;
+  flex-direction: column;
+}
+
+.windSpeed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+}
+
 main div {
-    border: 1px solid lightgray;
-  padding: 90px;
-  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
 }
 
 .spotlight {

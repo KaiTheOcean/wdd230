@@ -17,6 +17,10 @@
     justify-content: space-evenly;
   }
 
+  #hero {
+    height: 100%;
+  }
+
   #facebook {
     grid-column: 4;
   }
