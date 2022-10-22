@@ -25,6 +25,10 @@
     height: min-content;
     margin: 0 auto;
   }
+  
+  #hero {
+    height: 100%;
+  }
 
   ul {
     grid-row: 2;

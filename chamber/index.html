@@ -25,13 +25,11 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-
-    <script defer src="js/lesson4.js"></script>
   </head>
   <body>
     <div id="body">
       <header>
-        <img src="./images/logo.png" alt="logo" id="logoImg" />
+        <img src="./images/logo.webp" alt="logo" id="logoImg" />
         <div class="nameTitle">
           <h1>Chnegdu</h1>
           <h2>Chamber of Commerce</h2>
@@ -49,6 +47,11 @@
       </header>
       <main>
         <div id="hero">
+          <picture>
+            <source media="(min-width: 900px)" srcset="./images/large.jpg">
+            <source media="(min-width: 700px)" srcset="./images/mid.jpg">
+            <img src="./images/small.jpg" alt="background pic">
+          </picture>
           <h2>Welcome to Chengdu</h2>
           <button>Join the chamber</button>
         </div>
@@ -63,15 +66,15 @@
               id="weatherPic"
               src="./images/cloud.png"
               alt="sun and cloud"
-            /><span id="celsiusNumber">33 °C</span>
+            /><span id="celsiusNumber"><span id="tempNumbers">33</span>°F</span>
           </p>
           <p>Partly Cloudy</p>
           <hr />
           <div class="windSpeed">
             <p>Windspeed:</p>
-            <p>2.5km/h</p>
+            <p><sapn id="ws">5</sapn>km/h</p>
             <p>Wind Chill:</p>
-            <p> N/A</p>
+            <p id="wc"> N/A</p>
           </div>
         </div>
         <div id="event">
@@ -130,7 +133,7 @@
       </main>
       <footer>
         <div class="footer">
-          <img src="./images/logo.png" alt="logo" id="footImg" />
+          <img src="./images/logo.webp" alt="logo" id="footImg" />
           <div id="location">
             <h2>Chengdu</h2>
             <h2>Chamber of Commerce</h2>
@@ -159,4 +162,6 @@
       </footer>
     </div>
   </body>
+  <script src="./js/windChill.js"></script>
+  <script src="js/lesson4.js"></script>
 </html>

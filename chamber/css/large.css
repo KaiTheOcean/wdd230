@@ -19,6 +19,25 @@
 
   #hero {
     height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #hero picture{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #hero img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #hero source {
+    margin: 0px;
+    padding: 0px;
   }
 
   #facebook {

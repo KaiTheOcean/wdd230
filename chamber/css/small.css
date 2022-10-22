@@ -15,6 +15,32 @@ i {
   font-size: 20px;
 }
 
+#hero {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  position: absolute;
+}
+
+#hero picture{
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+#hero img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#hero source {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
     color: black;
 }
@@ -24,6 +50,8 @@ a {
   background-color: lightgray;
   width: fit-content;
   padding: 10px;
+  position:absolute;
+  top: 50%;
 }
 
 #join button {
@@ -77,9 +105,9 @@ section {
 }
 
 #hero {
-  background-image: url("https://img.jakpost.net/c/2017/12/11/2017_12_11_37092_1512964748._large.jpg");
+  /* background-image: url("https://img.jakpost.net/c/2017/12/11/2017_12_11_37092_1512964748._large.jpg"); */
   background-size:cover;
-  height: 200px;
+  /* height: 200px; */
   position: relative;
 }
 
