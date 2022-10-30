@@ -229,3 +229,10 @@ main div {
 #join {
   display: none;
 }
+
+.gallery picture img {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+

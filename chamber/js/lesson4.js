@@ -55,3 +55,13 @@ document.querySelector(".yearFoot").textContent = yearFoot;
 let currentDate = document.lastModified;
 
 document.querySelector(".lastModified").textContent = currentDate;
+
+banner = document.getElementById('banner')
+console.log(dayText)
+
+if (dayText != "Monday" || dayText != "Tuesday"){
+    banner.style.display = "none";
+}
+if (dayText == "Monday" || dayText == "Tuesday"){
+    banner.style.display = "block"
+}

@@ -101,4 +101,36 @@
     display: block;
     grid-row: 3;
   }
+
+
+  .gallery picture .imageContainer:hover {
+    transform: scale(110%);
+    transition: transform 300ms ease-in-out;
+    z-index: 1;
+  }
+
+  .gallery picture .imageContainer:not(hover) {
+    transform: scale(100%);
+    transition: transform 300ms ease-in-out;
+    z-index: 1;
+  }
+
+  .gallery picture .imageContainer:hover .description{
+    display: block;
+  }
+
+  .description {
+    background: white;
+    padding: 10px;
+    display:none;
+  }
+
+  .column {
+    width: 33%;
+  }
+
+  .gallery{
+    display: flex; 
+    flex-direction: row;
+  }
 }
