@@ -113,4 +113,9 @@
   #contact {
     grid-row: 2;
   }
+
+  /* join page */
+  #memberships {
+    display: block;
+  }
 }
