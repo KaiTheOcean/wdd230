@@ -1,6 +1,5 @@
 *{
     margin: 5px;
-    padding: 0;
     box-sizing:border-box;
 }
 
@@ -156,7 +155,7 @@ body {
   grid-row: inherit;
 }
 
-ul {
+.links {
   border-radius: 10px;
   list-style: none;
   padding: 0;
