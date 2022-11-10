@@ -14,21 +14,23 @@ async function getProphets(requestURL){
 
 getProphets(requestURL);
 
-function displayProphets(prophet) {
+function displayProphets(item) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let dob = document.createElement('p');
-    let pob = doucment.createElement('p');
+    let h3 = document.createElement('h3');
+    let h4 = document.createElement('h4');
     let img = document.createElement('img');
 
-    dob.textContent = item.birthdate;
-    pob.textContent = item.birthplace;
+    h2.textContent = item.name + ' ' + item.lastname;
+    h3.textContent = 'Date of Birth: ' + item.birthdate;
+    h4.textContent = 'Place of Birth: ' + item.birthplace;
+
     img.setAttribute('src', item.imageurl);
-    img.setAttribute('src', item.name + ' ' + item.lastname);
-    h2.textContent = prophet.name + " " + prophet.lastname;
+    // img.setAttribute('src', item.name + ' ' + item.lastname);
+
     card.appendChild(h2);
-    card.appendChild(dob);
-    card.appendChild(pob);
+    card.appendChild(h3);
+    card.appendChild(h4);
     card.appendChild(img);
     document.querySelector(".cards").appendChild(card);
 }
