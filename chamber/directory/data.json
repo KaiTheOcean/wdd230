@@ -1,0 +1,94 @@
+{
+    "business": [
+    {
+        "name": "Apple",
+        "address": "One Apple Park Way Cuperino, CA 95014",
+        "number": "877-412-7753",
+        "website": "https://www.apple.com",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfHOqVMmGbGpUwHh0bvWXwC4jyn01sfUHkw&usqp=CAU"
+    },
+    {
+        "name": "Google",
+        "address": "1600 Amphitheatre Parkway Mountain View, CA 94043",
+        "number": "650-253-0000",
+        "website": "https://www.google.com/",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png"
+    },
+    {
+        "name": "Uber",
+        "address": "1455 Market St. Ste 400 San Francisco, CA 94103",
+        "number": "352-325-1319",
+        "website": "https://www.uber.com/",
+        "img": "https://download.logo.wine/logo/Uber/Uber-Logo.wine.png"
+    },
+    {
+        "name": "Tesla",
+        "address": "1 Tesla Road. Austin, TX 78725",
+        "number": "888-518-3752",
+        "website": "https://www.tesla.com/",
+        "img": "https://1000logos.net/wp-content/uploads/2018/02/Logo-Tesla.jpg"
+    },
+    {
+        "name": "Tiktok",
+        "address": "5800 Bristol Parkway, Suite 100, Culver City, CA 90230",
+        "number": "656-950-4420",
+        "website": "https://www.tiktok.com/en/",
+        "img": "https://static.vecteezy.com/system/resources/previews/006/693/634/original/tik-tok-flat-icon-template-black-color-editable-tik-tok-flat-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg"
+    },
+    {
+        "name": "Adobe",
+        "address": "45 Park Ave. San Jose, CA 95110-2704",
+        "number": "800-833-6687",
+        "website": "https://www.adobe.com/",
+        "img": "https://logos-world.net/wp-content/uploads/2020/06/Adobe-Logo-2020-present.png"
+    },
+    {
+        "name": "StockX",
+        "address": "1046 Woodward Ave, Detroit, MI 48226",
+        "number": "313-343-1228",
+        "website": "https://stockx.com/",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/9/95/Stockx_logo.png"
+    },
+    {
+        "name": "Ssense",
+        "address": "291 E 7TH S, Rexburg, ID 83440",
+        "number": "877-637-6002",
+        "website": "https://www.ssense.com/",
+        "img": "data:image/png;base64,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"
+    },
+    {
+        "name": "Git Hub",
+        "address": "88 Colin P Kelly Junior Street San Francisco, CA 94107",
+        "number": "877-448-4820",
+        "website": "https://github.com/",
+        "img": "https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"
+    },
+    {
+        "name": "Balenciaga",
+        "address": "New York, US",
+        "number": "646-889-1895",
+        "website": "https://www.balenciaga.com/",
+        "img": "https://www.vectorkhazana.com/assets/images/products/Balenciaga_logo.png"
+    },
+    {
+        "name": "Nike",
+        "address": "One Bowerman Drive Beaverton, OR 97005-6453 USA",
+        "number": "800-806-6453",
+        "website": "https://www.nike.com/",
+        "img": "https://www.vectorkhazana.com/assets/images/products/Swoosh_Nike_Drip_Logo.png"
+    },
+    {
+        "name": "Yeezy",
+        "address": "LA, United States",
+        "number": "508-639-0293",
+        "website": "https://yeezy.com/",
+        "img": "https://blog.logomyway.com/wp-content/uploads/2021/08/yeezy-logo.png"
+    },
+    {
+        "name": "Fendi",
+        "address": "555 Madison Avenue New York, NY 10022 USA",
+        "number": "888-291-0163",
+        "website": "https://www.fendi.com/us-en/",
+        "img": "https://cdn.shopify.com/s/files/1/0249/5892/6941/products/Fendi-Logo-Iron-on-Black_1890x.jpg?v=1583655721"
+    }]
+}   

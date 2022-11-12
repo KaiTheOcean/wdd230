@@ -118,4 +118,14 @@
   #memberships {
     display: block;
   }
+
+  /* Directory page */
+  .businessCards {
+    display: none;
+    grid-template-columns: 50% 50%;
+  }
+
+  .businessTable {
+    display: block;
+  }
 }
