@@ -74,10 +74,10 @@ const getWeather = async() => {
     document.querySelector("#current-temp").textContent = 
     ((jsObject.main.temp - 273.15)* 1.80 + 32.00).toFixed(2);
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    // const desc = jsObject.weather[0].description;
+    const desc = jsObject.weather[0].description;
     // document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
-    // document.querySelector('figcaption').textContent = desc;
+    document.querySelector('#weatherCondition').textContent = desc;
 };
 getWeather();
